@@ -1,0 +1,26 @@
+.input-form {
+    margin: 0;
+}
+/* Styles for the input field */
+.input-form input {
+    border: 1px solid rgb(39, 39, 121);
+    border-radius: 50px;
+    width: 300px;
+}
+/* Styles for the add button */
+.input-form button{
+    border: none;
+    border-radius: 4px;
+    background-color:  rgb(39, 39, 121);;
+    color: black;
+    cursor: pointer;
+}
+/* Add button hover effect */
+.input-form button:hover{
+    background-color:  rgb(77, 77, 134);
+}
+
+/* Add button active effect */
+.input-form button:active{
+    background-color: rgb(144, 144, 179);
+}

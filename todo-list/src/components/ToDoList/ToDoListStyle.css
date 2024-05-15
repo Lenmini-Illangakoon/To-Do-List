@@ -1,0 +1,4 @@
+/* Basic styles for the unordered list */
+ul {
+    list-style: none;
+}

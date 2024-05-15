@@ -1,0 +1,37 @@
+/* Styles for the list item */
+li {
+    /*align-items: center;*/
+    background-color: yellow;
+    border-radius: 4px;
+}
+
+/* Styles for the completed to-do items */
+.completed span{
+    text-decoration: line-through;
+}
+
+/* Styles for the done button */
+.done-btn{
+    background-color: #28a745;
+}
+/* Hover effect for the done button */
+.done-btn:hover{
+    background-color: #218838
+}
+/* Active effect for the done button */
+.done-btn:active{
+    background-color: #88d198;
+}
+
+/* Styles for the delete button */
+.delete-btn{
+    background-color: #dc3545;
+}
+/* Hover effect for the delete button */
+.delete-btn:hover{
+    background-color: #c82333;
+}
+/* Active effect for the delete button */
+.delete-btn:active{
+    background-color: #f29ca5;
+}
