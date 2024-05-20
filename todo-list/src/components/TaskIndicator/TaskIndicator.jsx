@@ -1,5 +1,5 @@
 import React from 'react';
-import 'TaskIndicator.css';
+import './TaskIndicatorStyle.css';
 
 // The TaskIndicator component displays the total number of tasks
 const TaskIndicator = ({todos}) => {
@@ -12,3 +12,6 @@ const TaskIndicator = ({todos}) => {
 }
 
 export default TaskIndicator;
+
+// todos.length ->   total number of items in the todos array
+// { todos.length }: Displays the number of tasks

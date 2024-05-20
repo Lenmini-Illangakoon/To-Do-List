@@ -1,5 +1,5 @@
 import React from 'react';
-import 'ToDoStyles.css';
+import './ToDoStyle.css';
 
 // The ToDo component represents an individual to-do item
 const ToDo = ({todo, index, handleToggleComplete, handleDeleteTodo}) => {
@@ -21,4 +21,10 @@ const ToDo = ({todo, index, handleToggleComplete, handleDeleteTodo}) => {
     )
 }
 
-export default ToDo;
+export default ToDo; // Export the ToDo component for use in other files
+
+// Explanation of props:
+// todo: An object representing a single to-do item with properties like text and completed status
+// index: The index of the current to-do item in the list
+// handleToggleComplete: Function to toggle the completion status of the to-do item
+// handleDeleteTodo: Function to delete the to-do item

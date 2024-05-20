@@ -1,5 +1,5 @@
 import React from "react";
-import 'InputFormStyle.css';
+import './InputFormStyle.css';
 
 // The InputForm component handles the input field and add button for new to-do items
 const InputForm = ({input, setInput, handleAddToDo}) =>{
