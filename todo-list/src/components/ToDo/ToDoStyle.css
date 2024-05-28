@@ -1,8 +1,11 @@
 /* Styles for the list item */
 li {
-    /*align-items: center;*/
-    background-color: yellow;
-    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px; /* this adds a gap between each to-dos*/
+    background-color: #b9d3ec;
 }
 
 /* Styles for the completed to-do items */
@@ -13,6 +16,9 @@ li {
 /* Styles for the done button */
 .done-btn{
     background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
 }
 /* Hover effect for the done button */
 .done-btn:hover{
@@ -26,6 +32,9 @@ li {
 /* Styles for the delete button */
 .delete-btn{
     background-color: #dc3545;
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
 }
 /* Hover effect for the delete button */
 .delete-btn:hover{

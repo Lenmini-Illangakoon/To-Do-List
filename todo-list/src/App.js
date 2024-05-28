@@ -16,6 +16,7 @@ function App() {
     return savedTodos ? JSON.parse(savedTodos) : [];
   })
 
+  // State to manage the current input value
   const [input, setInput] = useState('');
 
   // useEffect hook to update localStorage whenever the todos state changes
